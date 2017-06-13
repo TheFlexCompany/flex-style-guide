@@ -1977,16 +1977,18 @@ select {
   border-radius: 0 0 0 0; }
 
 .accordion-title {
+  background-color: #e6e6e6;
   position: relative;
   display: block;
   padding: 1.25rem 1rem;
-  border: 1px solid #e6e6e6;
+  margin-bottom: 8px;
+  /*border: 1px solid #e6e6e6;*/
   border-bottom: 0;
   font-size: 0.75rem;
   line-height: 1;
   color: #1779ba; }
   :last-child:not(.is-active) > .accordion-title {
-    border-bottom: 1px solid #e6e6e6;
+    /*border-bottom: 1px solid #e6e6e6;*/
     border-radius: 0 0 0 0; }
   .accordion-title:hover, .accordion-title:focus {
     background-color: #e6e6e6; }
@@ -1996,13 +1998,15 @@ select {
     right: 1rem;
     margin-top: -0.5rem;
     content: '+'; }
+  .is-active > .accordion-title{
+    background: #BF9B5F;}
   .is-active > .accordion-title::before {
     content: '\2013'; }
 
 .accordion-content {
   display: none;
   padding: 1rem;
-  border: 1px solid #e6e6e6;
+  /*border: 1px solid #e6e6e6;*/
   border-bottom: 0;
   background-color: #fefefe;
   color: #0a0a0a; }

@@ -14,6 +14,11 @@
     <link href="css/foundation.css" rel="stylesheet" />
     <link href="css/typography.css" rel="stylesheet" />
     <link href="css/bg.css" rel="stylesheet" />
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/foundation.js"></script>
+    <script type="text/javascript" src="js/what-input.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
   </head>
   <body>
     <!-- Header -->
@@ -149,6 +154,36 @@
           </div>
         </div>
         
+        <!-- Accordion 
+          TODO: opening and closing still doesn't work.
+        -->
+
+        <div>
+          <h2>Accordion</h2>
+          <ul class="accordion" data-accordion="gjsdt4-accordion" role="tablist">
+            <li class="accordion-item is-active" data-accordion-item="">
+              <a href="#" class="accordion-title" aria-controls="r6ckjm-accordion" role="tab" id="r6ckjm-accordion-label" aria-expanded="true" aria-selected="true">Accordion 1</a>
+              <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="r6ckjm-accordion-label" aria-hidden="false" id="r6ckjm-accordion" style="display: block;">
+                <p>Panel 1. Lorem ipsum dolor</p>
+                <a href="#">Nowhere to Go</a>
+              </div>
+            </li>
+            <li class="accordion-item" data-accordion-item="">
+              <a href="#" class="accordion-title" aria-controls="1k5hd8-accordion" role="tab" id="1k5hd8-accordion-label" aria-expanded="false" aria-selected="false">Accordion 2</a>
+              <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="1k5hd8-accordion-label" aria-hidden="true" id="1k5hd8-accordion">
+                <textarea></textarea>
+                <button class="button">I do nothing!</button>
+              </div>
+            </li>
+            <li class="accordion-item" data-accordion-item="">
+              <a href="#" class="accordion-title" aria-controls="wludip-accordion" role="tab" id="wludip-accordion-label" aria-expanded="false" aria-selected="false">Accordion 3</a>
+              <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="wludip-accordion-label" aria-hidden="true" id="wludip-accordion">
+                Type your name!
+                <input type="text">
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
 
