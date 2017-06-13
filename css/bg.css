@@ -1,0 +1,31 @@
+.bg-black {
+	background-color: #000000;
+}
+
+.bg-pantone-black {
+	background-color: #27251F;
+}
+
+.bg-warm-gray {
+	background-color: #827C78;
+}
+
+.bg-halo-gold {
+	background-color: #BF9B5F;
+}
+
+.bg-sand {
+	background-color: #F8E9BE;
+}
+
+.bg-white {
+	background-color: #FFFFFF;
+}
+
+.bg-alert {
+	background-color: #cc4b37;
+}
+
+.max-width-content {
+	max-width: 960px;
+}

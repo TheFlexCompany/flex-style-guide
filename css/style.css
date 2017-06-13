@@ -1,0 +1,74 @@
+/*html {
+	font-size: 100%;
+}
+body {
+	margin: 0;
+    padding: 0;
+	font-family: 'Folio Light';
+}*/
+
+.color-block {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.color-block >:first-child {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 0.5rem;
+}
+
+.cta-button {
+	background-color: white !important;
+	border: black solid 1px !important;
+	color: black !important;
+	text-transform: uppercase !important;
+	font-size: 1em !important;
+}
+
+.cta-button:hover, .cta-button:focus {
+    background-color: black !important;
+    color: white !important;
+}
+
+.prominent-cta-button {
+	background-color: white !important;
+	border: black solid 2px !important;
+	color: black !important;	
+	font-weight: 600 !important;
+	text-transform: uppercase !important;
+	font-size: 1em !important;
+}
+
+.prominent-cta-button:hover, .prominent-cta-button:focus {
+    background-color: black !important;
+    color: white !important;
+}
+
+.success-button {
+	background-color: #bf9b5f !important;
+	border: #bf9b5f solid 1px !important;
+	color: white !important;	
+	font-weight: 600 !important;
+	text-transform: uppercase !important;
+	font-size: 1em !important;
+}
+
+.success-button:hover, .prominent-cta-button:focus {
+    background-color: #ccaf7f !important;
+}
+
+.alert-button {
+	background-color: #27251f !important;
+	border: #27251f solid 1px !important;
+	color: white !important;	
+	font-weight: 600 !important;
+	text-transform: uppercase !important;
+	font-size: 1em !important;
+}
+
+.alert-button:hover, .prominent-cta-button:focus {
+    background-color: black !important;
+}

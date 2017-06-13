@@ -1,0 +1,43 @@
+h1 {
+	font-size: 48px;
+	font-family: 'Majesti Banner Light';
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 40px;
+	font-family: 'Majesti Banner Book';
+	text-transform: uppercase;
+	letter-spacing: -0.025em;
+}
+
+h3 {
+	font-size: 31px;
+	font-family: 'Folio Medium';
+	text-transform: uppercase;
+}
+
+h4 {
+	font-size: 25px;
+	font-family: 'Folio Light';
+	text-transform: uppercase;
+}
+
+h5 {
+	font-size: 20px;
+	font-family: 'Folio Light';
+}
+
+h6 {
+	font-size: 16px;
+	font-family: 'Folio Light';
+	text-transform: capitalize;
+}
+
+.color-white {
+	color: white;
+}
+
+.text-center {
+	text-align: center;
+}
