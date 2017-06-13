@@ -25,7 +25,10 @@ body {
 	border: black solid 1px !important;
 	color: black !important;
 	text-transform: uppercase !important;
-	font-size: 1em !important;
+}
+
+.basic-button-size {
+	font-size: 1em !important;	
 }
 
 .cta-button:hover, .cta-button:focus {
